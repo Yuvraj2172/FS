@@ -1,0 +1,60 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.intro h3{
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.intro h3 span{
+    background-color: black;
+    color: white;
+}
+.imagesection{
+    box-shadow: rgba(63, 57, 57, 0.35) 5px 5px 15px;
+    margin-top:2em;
+    margin-left: 1.5em;
+    width: 70%;
+    height: 20%;
+}
+.textsection{
+    padding: 10px;
+    font-size: 20px;
+}
+.firstimage img {
+    width: 100%;
+    height:20em;
+}
+.texttitle{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+ button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+} */
+div +li{
+    background: blue;
+}

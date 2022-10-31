@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNU Operating System</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            overflow-x: hidden;
+            /* overflow-y: hidden; */
+        }
+
+        .logocontainer {
+            display: flex;
+            justify-content: center;
+        }
+
+        #banner {
+            font-size: 2.1rem;
+        }
+
+        #bannerimg {
+            height: 1.3em;
+            width: auto;
+        }
+
+        .bannercontent {
+            /* border:2px solid red; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        #bannerimg {
+            padding: 15px 15px;
+        }
+
+        .navbar ul {
+            display: flex;
+            align-items: flex-start;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 13px 13px;
+            margin-top: 3px;
+            font-size: large;
+        }
+
+        .navbar ul {
+            background-color: #a32d2a;
+        }
+
+        .quotesseciton {
+            /* position: relative;
+            left: 1180px; */
+            width: 18%;
+            padding-left: 24px;
+            margin-left: 21px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+        }
+
+        .franklin {
+            background: linear-gradient(#eef, white);
+            margin-top: 2.3rem;
+            border: 2px solid grey;
+            width: 250px;
+        }
+
+        .textcontent {
+            margin: 32px 13px;
+            width: 200px;
+            padding: 0 1.2rem 1.1rem;
+        }
+
+        #franklinename {
+            padding: 12px 12px;
+        }
+
+        .GNU {
+            background: linear-gradient(#dff, white);
+            margin-top: 2.3rem;
+            border: 2px solid grey;
+            width: 250px;
+
+        }
+
+        .topicheading {
+            margin: 1.1rem;
+            font-weight: 800;
+        }
+
+        .topiccontent {
+            margin: 1.1rem;
+            width: 1000px;
+        }
+
+        .trybtn {
+            margin-bottom: 10px;
+            display: inline-block;
+            text-align: center;
+            font-size: 1.6em;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0.4em 0.6em 0.5em;
+            color: #55b;
+            background: white;
+            border: 0.1em solid #55b;
+            border-radius: 0.3em;
+        }
+
+        .trybtn:hover {
+            color: white;
+            background-color: #55b;
+        }
+
+        .mainimg img {
+            position: relative;
+            /* top: 40px; */
+            left: 90px;
+            /* justify-content: center; */
+        }
+
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logocontainer">
+        <img id="bannerimg" style="height:48px;width:49px;" src="logo.png" alt="">
+        <div class="bannercontent">
+            <span id="banner"> <span style="color: #a32d2a;">GNU</span> Operating System </span>
+            <p>Supported by the <u> <b>Free Sorfware Foundation</b></u> </p>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="">ABOUT GNU</a></li>
+            <li><a href="">PHILOSOPHY</a></li>
+            <li><a href="">LICENSES</a></li>
+            <li><a href="">EDUCATION</a></li>
+            <li><a href="">SOFTWARE</a></li>
+            <li><a href="">DOCS</a></li>
+            <li><a href="">MALWARE</a></li>
+            <li><a href="">HELP GNU</a></li>
+        </ul>
+    </div>
+    <div class="quotesseciton">
+        <!-- <aside> -->
+        <div class="franklin">
+            <p class="textcontent">As we enjoy great advantages from the inventions of others, we should be glad of an
+                opportunity to serve others by any invention of ours, and this we should do freely and generously.</p>
+            <p id="franklinename">—Benjamin Franklin</p>
+        </div>
+        <div class="GNU">
+            <p class="textcontent">The GNU Project strongly urges the community to communicate in ways that are
+                friendly, welcoming and kind. <a href="#">See the GNU Kind Communications Guidelines.</a> </p>
+
+        </div>
+    </div>
+    <div>
+        <div class="topicheading">
+            What is GNU?
+        </div>
+        <div class="topiccontent">
+            GNU is an operating system that is free software—that is, it respects users' freedom. The GNU operating
+            system consists of GNU packages (programs specifically released by the GNU Project) as well as free software
+            released by third parties. The development of GNU made it possible to use a computer without software that
+            would trample your freedom.
+
+            We recommend installable versions of GNU (more precisely, GNU/Linux distributions) which are entirely free
+            software. More about GNU below.
+        </div>
+    </div>
+<!-- </aside> -->
+    </div>
+    <button class="trybtn">Try GNU/Linux</button>
+    <div class="mainimg">
+        <img src="trisquel10-mate.jpg" alt="">
+    </div>
+    <div class="topicheading">
+        What is GNU?
+    </div>
+    <div>
+        <div class="topicheading">
+            What is the Free Software Movement?
+
+        </div>
+        <div class="topiccontent">
+            The free software movement campaigns to win for the users of computing the freedom that comes from free
+            software. Free software puts its users in control of their own computing. Nonfree software puts its users
+            under the power of the software's developer. See the video explanation.
+        </div>
+    </div>
+    </div>
+    <div class="topicheading">
+            What is GNU?
+        </div>
+        <div class="topiccontent">
+            GNU is an operating system that is free software—that is, it respects users' freedom. The GNU operating
+            system consists of GNU packages (programs specifically released by the GNU Project) as well as free software
+            released by third parties. The development of GNU made it possible to use a computer without software that
+            would trample your freedom.
+
+            We recommend installable versions of GNU (more precisely, GNU/Linux distributions) which are entirely free
+            software. More about GNU below.
+        </div>
+    </div>
+<!-- </aside> -->
+    </div>
+    <button class="trybtn">Try GNU/Linux</button>
+    <div class="mainimg">
+        <img src="trisquel10-mate.jpg" alt="">
+    </div>
+    <div class="topicheading">
+        What is GNU?
+    </div>
+    <div>
+        <div class="topicheading">
+            What is the Free Software Movement?
+
+        </div>
+        <div class="topiccontent">
+            The free software movement campaigns to win for the users of computing the freedom that comes from free
+            software. Free software puts its users in control of their own computing. Nonfree software puts its users
+            under the power of the software's developer. See the video explanation.
+        </div>
+    </div>
+    </div>
+    <form action="nono"></form>
+</body>
+
+</html>

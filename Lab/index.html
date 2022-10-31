@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        
+        .container form{
+            
+            display: flex;
+            flex-direction: column;
+            
+        }
+        input{
+            border-radius: 14px;
+            text-align:center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+       
+        h3{
+            text-align: center;
+        }
+        body{
+            /* background-color: aquamarine; */
+        }
+        .submit{
+            /* border : 2px solid #007bff; */
+            border-radius: 14px;
+        }
+        .navbar ul{
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li a{
+            margin: 15px 15px;
+           
+            list-style: none;
+            text-decoration: none;
+            padding: 13px;
+        }
+        .navbar ul{
+            height: 43px;
+            background-color: black;
+           
+        }
+        .navbar ul li{
+            padding : 10px;
+        }
+        .navbar{
+            /* display: flex; */
+            justify-content:center;
+        }
+        .navbar-image{
+            position: absolute;
+            left: 30px;
+            top:25px;
+            width: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+       
+        <ul>
+            <img class="navbar-image" src="download (1).jfif" alt="">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.htlm">About us</a></li>
+            <li><a href="login.html">Register with Us</a></li>
+        </ul>
+    </header>
+    <h3>Login form</h3>
+    <div class="container">
+        <form action="none">
+          <label for="email">Enter your email</label> <input type="text" placeholder="email">
+          <label for="password">Enter password</label> <input type="password" placeholder="password">
+          <label for="text">Enter text</label> <input type="text" placeholder="text-area">
+          <br>
+          <input type="submit" >
+        </form>
+    </div>
+</body>
+</html>

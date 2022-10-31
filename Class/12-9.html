@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: orchid
+        }
+        header img {
+            width: 120px;
+            height: 40px;
+        }
+        .title{
+            font-size: larger;
+            font-style: italic;
+        }#para{
+            border: 2px solid red;
+            margin: 10px;
+        }
+        div > ol li{
+            /* display: flex; */
+            color:orange;
+            background-color: aqua;
+        }
+        input[type="text"]{
+            width: 50%;
+            color :yellow;
+        } 
+        h1+p{
+            color:tan
+        }
+        h1,h2{
+            font-weight: 2800;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="download.jpg" alt="">
+</header>
+<div class="title">
+    CSS Combinators
+</div>
+<div id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, porro aspernatur. Numquam nihil mollitia, illo nisi odio esse dolorum eaque laboriosam reprehenderit ab. Culpa, nobis repellendus. Officiis perspiciatis, sunt accusantium perferendis quia reiciendis itaque.</div>
+
+
+<div >
+    <ol>
+        this is the ordered list
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+    </ol>
+    <h2>This is the heading inside div</h2>
+   <h3>This is div for list
+    <ol>
+        this is the ordered list
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+        <li>element</li>
+    </ol>
+   </h3>
+</div>
+Enter Name: <input type="text" placeholder="name">
+
+<h1>To show adjacent sleector</h1>
+<p>Paragraph for adjacent selector</p>
+
+
+
+
+
+
+
+</body>
+</html>
