@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student number</title>
+</head>
+<body>
+    <span  id = "rollno" style="color:#007bff">201500837</span>
+
+
+    Enter Text<input type="text" name="" id="Text">
+    <button type="button" onclick="getInputValue();" id="colorbutton">Change color</button>
+    <br>
+
+
+    Enter Number <input type="text" id="additionnumber">
+    <button id = "addition" onclick="addition();">Addition</button>
+    <br> 
+    <br>
+    Enter Multiplier Number <input type="number" id ="multiplier">
+    <button id = "multiplication" onclick="multiplication();">multiplication
+    </button>
+    <script>
+        function getInputValue(){
+    var inputVal=document.getElementById("Text").value;
+    // alert(inputVal);
+    let rollcolor=document.getElementById("rollno");
+    rollcolor.style.color=inputVal;
+}
+    function addition(){
+        let inputnumber=document.getElementById('additionnumber').value;
+
+        let rolladdition = document.getElementById('rollno');
+        let sum = Number(rolladdition.innerHTML) + Number(inputnumber);
+        rolladdition.innerHTML=sum;
+    }
+
+    function multiplication(){
+        let multiplier = document.getElementById("multiplier").value;
+
+       let rollmultiplication = document.getElementById('rollno').innerHTML;
+
+       let multiply = Number(rollmultiplication) * Number(multiplier) ;
+
+       document.getElementById("rollno").innerHTML = multiply;
+    }
+</script>
+</body>
+</html>
