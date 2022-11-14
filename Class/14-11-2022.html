@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var a= 20.0000000980342;
+       try{
+        console.log("Lines before errorneous code will get executed");
+        a.toPrecision(101) ;// allows to set values in range[1,100]
+        console.log("After Error is raised , this will not be executed");
+        console.log(a);
+       }catch(e) {
+        console.log(e);
+       }
+        try{
+           document.ewrite("Happy Children`s Day to all my dear students.");
+        }catch(e){
+            console.log(e);
+        }
+        try{
+            var b = 20;
+            b+=a;
+        }catch(e){
+            console.log(e);
+        }
+
+        try{
+            var a =decodeURIComponent("www.google.com");
+            alert(a);
+        }
+        catch(e){
+            console.log(e);
+        }
+    </script>
+</body>
+</html>
