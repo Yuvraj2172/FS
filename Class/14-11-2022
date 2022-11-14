@@ -1,0 +1,52 @@
+Errors in Js 
+1. Range Error: 
+try{
+    a.toPrecision(101) ;// allows to set values in range[1,100]
+   }catch(e) {
+    console.log(e);
+   }
+2. syntax Error : 
+try{
+    console.log("Lines before errorneous code will get executed");
+    a.toPrecision(101) ;// allows to set values in range[1,100]
+    console.log("After Error is raised , this will not be executed";
+    console.log(a);
+   }catch(e) {
+    console.log(e);
+   }
+
+3. type error : If misspelled the function or method name.
+    ex :  try{
+        document.ewrite("Happy Children`s Day to all my dear students.");
+     }catch(e){
+         console.log(e);
+     }
+4. Reference Error : When we use a variable that is not already defined.
+try{
+    var b = 20;
+    b+=a;
+}catch(e){
+    console.log(e);
+}
+5. URI error : This error is associated with url.
+ 
+try{
+    var a =decodeURIComponent("www.google.com");
+    alert(a);
+}
+catch(e){
+    console.log(e);
+}
+Event Handling
+1. try : We put the statements that gives us erros/exceptions.
+syntax: try{
+    statements;
+}
+
+2. catch : To manage/ handle the errors by providing user defined messages.
+Objexts, name, messages.
+syntax : catch(e){
+    
+                }
+3. finally
+4. throw
