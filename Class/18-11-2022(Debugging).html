@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging</title>
+</head>
+<body>
+    <!-- 1. Pointer Approach
+    2. debugger
+    3. Strict Mode -->
+    <script>
+        "use strict"; 
+        function fun(x1,x1,x1){
+            // If strice mode is not allowed , JS will pick the last received parameter...\
+
+            //But in case of strict mode it will throw an error , " Duplicate parameters are not allowed. "
+            x1=x1+x1+x1;
+            console.log(x1);
+        }
+        fun(10,20,30);
+        
+        a=10;
+        console.log(a);
+        var  a;
+        document.write(a);
+        // debugger
+        // var a=10;
+        // debugger
+        // var b= 20;
+        // debugger
+        // var c =a*b;
+        // document.write(c);
+    </script>
+</body>
+</html>
+
