@@ -37,6 +37,7 @@ try{
 catch(e){
     console.log(e);
 }
+
 Event Handling
 1. try : We put the statements that gives us erros/exceptions.
 syntax: try{
