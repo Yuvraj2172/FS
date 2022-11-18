@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exception handling Continued</title>
+</head>
+<body>
+    <input type="text" id="t1">
+    <button type="submit" onclick="secd()">Click Me</button>
+    <script>
+        function secd(){
+
+       
+        try{
+        let out =document.getElementById('t1').value;
+        if(out==="")throw "Please Enter Something";
+        if(isNaN(out))throw "Number not available";
+       var out1=parseInt(out);
+        if(out1<18)throw "Not Alloed";
+        if(out>30) throw "Not Allowed";
+        if(out1>=18 && out1<=30)console.log("Allowed");
+    }catch(e){
+        console.log(e);
+    }
+    
+}
+</script>
+</body>
+</html>
